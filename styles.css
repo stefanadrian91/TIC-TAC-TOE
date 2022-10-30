@@ -1,0 +1,27 @@
+.btnStyle {
+  width: 80px;
+  height: 80px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  background-color: lightcyan;
+  margin: 0px;
+  padding: 0px;
+}
+
+.btnStart {
+  width: 260px;
+  height: 90px;
+  padding: 0px;
+  border-width: 1px;
+  border-color: black;
+  margin: 0px;
+  align-items: center;
+}
+
+.rowStyle {
+  height: 80px;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 10px;
+}

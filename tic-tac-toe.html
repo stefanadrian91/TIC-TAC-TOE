@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>TIC-TAC-TOE</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <h1 class="text-center">TIC-TAC-TOE</h1>
+      <div class="text-center">
+        <div class="rowStyle">
+          <button type="button" class="btnStyle" onclick="addPlayer(1), this.disabled = true;" disabled id="10"><h1 id="1">&nbsp;</h1></button>
+          <button type="button" class="btnStyle" onclick="addPlayer(2), this.disabled = true;" disabled id="11"><h1 id="2">&nbsp;</h1></button>
+          <button type="button" class="btnStyle" onclick="addPlayer(3), this.disabled = true;" disabled id="12"><h1 id="3">&nbsp;</h1></button>
+        </div>
+        <div class="rowStyle">
+          <button type="button" class="btnStyle" onclick="addPlayer(4), this.disabled = true;" disabled id="13"><h1 id="4">&nbsp;</h1></button>
+          <button type="button" class="btnStyle" onclick="addPlayer(5), this.disabled = true;" disabled id="14"><h1 id="5">&nbsp;</h1></button>
+          <button type="button" class="btnStyle" onclick="addPlayer(6), this.disabled = true;" disabled id="15"><h1 id="6">&nbsp;</h1></button>
+        </div>
+        <div class="rowStyle">
+          <button type="button" class="btnStyle" onclick="addPlayer(7), this.disabled = true;" disabled id="16"><h1 id="7">&nbsp;</h1></button>
+          <button type="button" class="btnStyle" onclick="addPlayer(8), this.disabled = true;" disabled id="17"><h1 id="8">&nbsp;</h1></button>
+          <button type="button" class="btnStyle" onclick="addPlayer(9), this.disabled = true;" disabled id="18"><h1 id="9">&nbsp;</h1></button>
+        </div>
+      </div>
+      <div class="text-center">
+        <button type="button" class="btn btn-warning btnStart" hiddent = "false" id="start" onclick="start(), this.disabled = true;">START</button>
+        <h3 id="playerId" class="text-center">
+        </h3>
+        <button type="button" class="btn btn-danger btnStart" hidden id="restart" onclick="window.location.reload();">RESTART</button>
+      </div>
+      <h2 id="winningPlayer">
+      </h2>
+    </div>
+    <script src="TIC-TAC-TOE.js"></script>
+  </body>
+</html>
